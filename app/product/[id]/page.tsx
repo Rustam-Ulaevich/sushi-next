@@ -1,7 +1,10 @@
-export default function ProductPage() {
+import { Button } from "@/components/ui/button";
+
+export default function Home() {
     return (
         <div>
-            <h1>Sterlitamak Sushi Next</h1>
+            <h1>Главная</h1>
+            
         </div>
     )
 }
