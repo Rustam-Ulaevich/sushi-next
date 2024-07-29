@@ -1,10 +1,13 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { Container, Title } from "@/components/shared";
+
+
 
 export default function Home() {
-  return (
-    <h1>Sterlitamak Sushi Next
-                <Button >Корзина</Button>
-            </h1>
-  );
+  return <>
+
+    <Container className='mt-10'>
+      <Title text="Все пиццы" size='lg' className='font-extrabold'/>
+    </Container>
+
+  </>
 }
